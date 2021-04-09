@@ -17,11 +17,7 @@ class Square extends React.Component {
       return <Square value={i} />;
     }
   }
-  class Board extends React.Component {
-    renderSquare(i) {
-      return <Square />;
-    }
-  
+    
     render() {
       const status = 'Next player: X';
   
